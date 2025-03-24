@@ -1,8 +1,8 @@
 # Mausam Macha
 
-![Mausam Macha Logo](./1.jpg)
+![Mausam Macha Logo](assets/images/logo.png)
 
-## 🌤 Weather Forecasting App Built with Flutter
+## 🌤 A Modern Weather App Built with Flutter
 **Mausam Macha** is a sleek and modern weather application that provides real-time weather updates with an engaging user interface. Built using **Flutter**, the app leverages API-driven data to display current, hourly, and weekly forecasts with interactive UI elements.
 
 ---

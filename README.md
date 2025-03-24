@@ -83,17 +83,11 @@ Contributions are welcome! If you’d like to contribute:
 
 ---
 
-## 📝 License
-This project is **MIT Licensed**. Feel free to use and modify!
-
----
-
-💡 *Stay updated with the weather, always!* 🌦
-
-<<<<<<< HEAD
-=======
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
 
 Copyright (C) 2025. All rights reserved.
->>>>>>> 3fed937fcdff6bc6c9c778c8cf8440298684cef9
+
+---
+
+💡 *Stay updated with the weather, always!* 🌦

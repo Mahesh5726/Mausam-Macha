@@ -9,9 +9,9 @@
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="assets/screenshots/1.jpg" alt="Screenshot 1" width="300">
-  <img src="assets/screenshots/2.jpg" alt="Screenshot 2" width="300">
-  <img src="assets/screenshots/3.jpg" alt="Screenshot 3" width="300">
+  <img src="assets/screenshots/1.jpg" alt="Screenshot 1" width="200">
+  <img src="assets/screenshots/2.jpg" alt="Screenshot 2" width="200">
+  <img src="assets/screenshots/3.jpg" alt="Screenshot 3" width="200">
 </p>
 
 

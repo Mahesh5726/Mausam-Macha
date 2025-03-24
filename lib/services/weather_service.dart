@@ -4,8 +4,8 @@ import 'package:geolocator/geolocator.dart';
 import '../models/weather_model.dart';
 
 class WeatherService {
-  static const String _apiKey =
-      '7d303f6f0e0fc247593c2b4cb83410c6'; // Sign up at OpenWeatherMap to get an API key
+  static String _apiKey =
+      const String.fromEnvironment('OPENWEATHER_API_KEY');
   static const String _baseUrl =
       'https://api.openweathermap.org/data/2.5/weather';
   static const String _forecastUrl =

@@ -1,55 +1,89 @@
 # Mausam Macha
 
-A modern weather application built with Flutter.
+![Mausam Macha Logo](./1.jpg)
 
-## Description
+## 🌤 Weather Forecasting App Built with Flutter
+**Mausam Macha** is a sleek and modern weather application that provides real-time weather updates with an engaging user interface. Built using **Flutter**, the app leverages API-driven data to display current, hourly, and weekly forecasts with interactive UI elements.
 
-Mausam Macha is a weather application that provides local weather information using your device's location services. The app features a clean, modern interface with real-time weather updates.
+---
 
-## Features
+## 📸 Screenshots
+![Screenshot 1](assets/screenshots/1.jpg)
 
-- Real-time weather information
-- Location-based weather updates
-- Support for both iOS and Android platforms
-- Clean and modern UI with dark theme
-- Portrait orientation optimized
+![Screenshot 2](assets/screenshots/2.jpg)
 
-## Getting Started
+![Screenshot 3](assets/screenshots/3.jpg)
 
+
+---
+
+## 🚀 Features
+- 🌍 **Real-time Weather Data**: Fetches live weather updates for any city.
+- 🔎 **City Search Functionality**: Search for weather information of different cities.
+- 📅 **Hourly & Weekly Forecast**: Displays temperature trends for upcoming hours and days.
+- 🎨 **Modern UI**: Neon-themed futuristic interface with smooth transitions.
+
+---
+
+## 🛠 Tech Stack
+- **Framework:** Flutter (Dart)
+- **State Management:** Provider
+- **API:** OpenWeatherMap API
+- **UI Components:** Flutter Widgets & Custom Animations
+
+---
+
+## 🏗 Installation & Setup
 ### Prerequisites
+- Install **Flutter SDK**: [Get Started](https://flutter.dev/docs/get-started/install)
+- Install **Dart**: Included with Flutter
+- Set up an Android/iOS emulator or a physical device
 
-- Flutter SDK
-- Android Studio / Xcode (for iOS development)
-- A physical device or emulator
+### Steps
+```sh
+# Clone the repository
+git clone https://github.com/Mahesh5726/Mausam-Macha.git
+cd Mausam-Macha
 
-### Installation
+# Install dependencies
+flutter pub get
 
-1. Clone this repository
-2. Run `flutter pub get` to install dependencies
-3. Ensure you have required permissions set up (location services)
-4. Run the app using `flutter run`
+# Run the app
+flutter run
+```
 
-## Platform Support
+---
 
-### Android
-- Requires location permissions
-- Minimum SDK version supported by Flutter
-- Internet access required
+## 🔧 API Configuration
+1. Create a free account on [OpenWeatherMap](https://openweathermap.org/)
+2. Get your API key.
+3. Add the API key in `lib/services/api_service.dart`:
+```dart
+const String _apiKey = "YOUR_API_KEY_HERE";
+```
 
-### iOS
-- Requires location permissions
-- Supports both iPhone and iPad
-- Supports all orientations on iPad
-- Portrait mode only on iPhone
+---
 
-## Resources
+## 📌 To-Do
+- [ ] Implement Dark Mode
+- [ ] Add Geolocation-based Weather Updates
+- [ ] Enhance UI Animations
 
-For help getting started with Flutter development:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-- [Online documentation](https://docs.flutter.dev/)
+## 🤝 Contributing
+Contributions are welcome! If you’d like to contribute:
+1. Fork the repo
+2. Create a feature branch (`feature-newFeature`)
+3. Commit your changes
+4. Push and create a Pull Request
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
-Copyright (C) 2025. All rights reserved.
+---
+
+## 📝 License
+This project is **MIT Licensed**. Feel free to use and modify!
+
+---
+
+💡 *Stay updated with the weather, always!* 🌦
+

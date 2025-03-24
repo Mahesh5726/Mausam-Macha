@@ -60,7 +60,7 @@ flutter run
 ## 🔧 API Configuration
 1. Create a free account on [OpenWeatherMap](https://openweathermap.org/)
 2. Get your API key.
-3. Add the API key in `lib/services/api_service.dart`:
+3. Add the API key in `lib/services/weather_service.dart`:
 ```dart
 const String _apiKey = "YOUR_API_KEY_HERE";
 ```
